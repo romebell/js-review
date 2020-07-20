@@ -1,2 +1,26 @@
 # JavaScript Review 
 This is my review of JavaScript.
+
+## Examples of Data Types
+```javascript
+    let name = 'Rome Bell';
+    let age = 32;
+    let isCool = true;
+    const friends = ['Kevin', 'Molik', 'Jason', 'Frank', 'Asia'];
+
+    const tesla = {
+        industry: 'Electric Cars',
+        ceo: 'Elon Musk',
+        yearFounded: 2003,
+        foundingMembers: ['Elon Musk', 'JB Straubel', 'Martin Eberard'],
+        stockTicker: 'TSLA',
+        vehicles: {
+            vehicleOne: 'Model S',
+            vehicleTwo: 'Model X',
+            vehicleThree: 'Model 3'
+        },
+        print: function() {
+            console.log("The CEO of Tesla is " + this.ceo);
+        }
+    }
+```
